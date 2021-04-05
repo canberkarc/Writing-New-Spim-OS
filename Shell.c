@@ -5,7 +5,7 @@
 int main() {
 	printf("Welcome to New SpimOs\n");
 	printf("Please choose an operation:\n");
-	printf("0- Exit\n1- Bubble Sort\n2- Show Primes\n3- Factorize\n");
+	printf("1- Bubble Sort\n2- Show Primes\n3- Factorize\n");
 	
 	int choice = -1;
 	scanf("%d",&choice);
@@ -16,10 +16,6 @@ int main() {
 	mChar[2] = "shellHelp.asm";
 	mChar[4] = NULL;
 	switch(choice){
-		case 0:
-			choice = 0;
-			break;
-		
 		case 1:
 			mChar[3] = "BubbleSort.asmm";
 			execvp("spim",mChar);
