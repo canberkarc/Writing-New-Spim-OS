@@ -1,0 +1,3 @@
+Shell.asm is assembly version of Shell.c
+You can compile Shell.c with gcc and do operations, Shell.c uses shellHelp.asm to make syscall so compilation with spim is done with Shell.c, you should run Shell.c after each operation becuase returning from shellHelp.asm is not possible.
+Shell.asm is produced by the MIPS compiler ,you can run Shell.asm with spim and you can see that it is same as Shell.c, Shell.asm performs operations in a loop.
